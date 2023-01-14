@@ -1,0 +1,21 @@
+<div class="container-fluid " >
+     <div class="row">
+       <div class="col-md-4"></div>
+       <div class=" col-md-4" align="center">
+           <div class="alert alert-danger" *ngIf="erreur==1">
+               <strong>username or password are incorrect !!!</strong>
+           </div>
+           <form class="form" >
+            <div class="form-group">
+                <input class="form-control form-control-lg" style="border-radius: 15px;"  type="text" name="username"  size="30"  placeholder="Username" [(ngModel)]="user.username" required/><br><br>
+                
+                <input class="form-control form-control-lg" style="border-radius: 15px;" type="password" name="password"  required size="30" placeholder="Password" [(ngModel)]="user.password"/><br><br>
+                <input  (click)="onLoggedin()" class="btn btn-success form-control-lg " style="border-radius: 20px;" type="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Submit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><br><br>
+                <a class="Teko" href="#" style="color: rgb(9, 18, 51);" >Forgot password?</a>
+            </div>
+            </form>
+            
+       </div>
+       <div class="col-md-4"></div>
+   </div>
+</div>

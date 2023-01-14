@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col col-1" >
+            <img src="assets/images/icon.png" height="100px">
+        </div>
+        <div class="col col-11" >
+            <div class="navbar">
+                <div class="navbar">
+                    <br><br>
+                    <h1 *ngIf="valid===1">{{user.username}}</h1>
+                    <button class="bt" routerLink="/home" style="color: rgb(116, 114, 110)"><strong>home</strong></button>
+                    &nbsp;<button class="bt" routerLink="/events"style="color: rgb(116, 114, 110)"><strong>events</strong></button>
+                    &nbsp;<button class="bt" routerLink="/login" style="color: rgb(116, 114, 110)"><strong>login</strong></button>
+                    &nbsp;<button class="bt" routerLink="/subscribe" style="color: rgb(116, 114, 110)"><strong>subscribe</strong></button>
+                    &nbsp;&nbsp;<input type="search" style="border-radius: 20px;height: 42px;width: 250px;" placeholder="search your favourite food">
+                    <button class="bt1"   >search</button>
+            
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</div>
+
+
+<router-outlet></router-outlet>

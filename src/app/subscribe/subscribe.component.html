@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col col-md-4" align="center">
+            <form class="form">
+                
+                <input class="form-control form-control-lg" style="border-radius: 15px;" type="text" name="username1"  size="30" required placeholder="Username" [(ngModel)]="user.username" /><br>
+               
+                <input class="form-control form-control-lg" style="border-radius: 15px;" type="password" name="password1"  required size="30" placeholder="Password" [(ngModel)]="user.password" /><br>
+                
+                <input class="form-control form-control-lg" style="border-radius: 15px;" type="date" name="d_naissance" ><br>
+                
+                <input class="form-control form-control-lg" type="text" style="border-radius: 15px;" name="city"  size="30" required placeholder="City" [(ngModel)]="user.city"/><br>
+                <input (click)="addUser() "  class="btn btn-success form-control-lg" style="border-radius: 20px;" type="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Submit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><br>
+
+                
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>

@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+
+.size{
+    font-size: 40;
+}
+body{
+
+    background-image: url('assets/images/Untitled-12.svg');
+    background-size: cover ;
+    
+    background-repeat: no-repeat;
+}
+.bt{
+    color: #fbfdfc;
+    padding:10px 45px;background: transparent;border: 2px solid rgb(116, 114, 110);outline: none; cursor: pointer;align-items: center;border-radius: 40px;
+}
+.bt1{
+  color: #767a78;
+  padding:5px 20px;background: transparent;border: 2px solid rgb(116, 115, 111);outline: none; cursor: pointer;align-items: center;border-radius: 40px;
+}
+.bt:hover{
+    background-color: rgb(236, 239, 247);
+    
+}
+.bt1:hover{
+  background-color: rgb(247, 245, 243);
+  
+}
+
+.navbar{
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shine{
+    color: #000;
+    cursor: pointer;
+    
+}
+.shine:hover{
+    color: rgb(250, 179, 120);
+}
+
+
+
+.Teko{
+    font-family: 'Teko', cursive;
+}
+.Pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.FredokaOne-Regular{
+    font-family: 'Fredo',cursive;
+}
+  .carousel-container{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 820px;
+    height:500 ;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: rgb(150, 173, 224);
+    justify-content: center;
+    position: absolute;
+    
+
+  }
+  .carousel-container img{
+    display: none;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .carousel-container img.image-active{
+    display: block;
+    width: 760px;
+    height: 400px;
+  
+  }
+  .carousel-dot-container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 40px;
+    justify-content: center;
+    display: flex;
+    margin: bottom 1rem; 
+  }
+  .dot{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: opacity 0.6s ease;
+    opacity: 0.5;
+    
+  }
+  .active,.dot:hover{
+    opacity:1 ;
+  
+  }
+  .bot{
+    display: none;
+    color: #7c766f;font-size: 18px;
+    padding:10px 45px;background: transparent;border: 2px solid rgb(116, 114, 110);outline: none; cursor: pointer;align-items: center;border-radius: 40px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+  }
+  .bot.image-active{
+    display: block;
+  }
+  .bot:hover{
+    background-color: rgb(236, 239, 247);
+  }
+  
+ .btn-carousel{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   color: aliceblue;
+   text-align: center;
+   background: 0 0 ;
+   border: 0;
+   cursor: pointer;
+   margin-left: 100px;
+
+ }
+ .s{
+   cursor: p;
+ }
+ 
+ 
